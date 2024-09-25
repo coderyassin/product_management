@@ -1,0 +1,43 @@
+# product_management
+
+###
+# @name allProducts
+GET http://localhost:8080/api/v2/products
+
+###
+# @name productById
+GET http://localhost:8080/api/v2/products/1
+
+###
+# @name createProduct
+POST http://localhost:8080/api/v2/products
+Content-Type: application/json
+
+{
+  "code": "string",
+  "name": "string",
+  "description": "string",
+  "image": "string",
+  "category": "string",
+  "price": 0,
+  "quantity": 0,
+  "internalReference": "string",
+  "shellId": 0,
+  "inventoryStatus": "INSTOCK",
+  "rating": 0
+}
+
+###
+# @name updateProduct
+PATCH http://localhost:8080/api/v2/products/1
+Content-Type: application/json
+
+{
+  "code": "string",
+  "name": "string",
+  "description": "string"
+}
+
+###
+# @name deleteProduct
+DELETE http://localhost:8080/api/v2/products/1
