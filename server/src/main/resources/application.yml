@@ -3,8 +3,8 @@ spring:
     name: server
   datasource:
     url: jdbc:mysql://localhost/product_management?autoReconnect=true
-    username: config
-    password: config
+    username: root
+    password: YassMel97
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
@@ -51,8 +51,8 @@ spring:
       on-profile: prod
   datasource:
     url: jdbc:mysql://localhost/product_management?autoReconnect=true
-    username: config
-    password: config
+    username: root
+    password: YassMel97
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
@@ -99,8 +99,8 @@ spring:
       on-profile: preprod
   datasource:
     url: jdbc:mysql://localhost/product_management?autoReconnect=true
-    username: config
-    password: config
+    username: root
+    password: product_management
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
@@ -147,8 +147,8 @@ spring:
       on-profile: dev
   datasource:
     url: jdbc:mysql://localhost/product_management?autoReconnect=true
-    username: config
-    password: config
+    username: root
+    password: YassMel97
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
@@ -195,8 +195,8 @@ spring:
       on-profile: local
   datasource:
     url: jdbc:mysql://localhost/product_management?autoReconnect=true
-    username: config
-    password: config
+    username: root
+    password: YassMel97
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
