@@ -4,11 +4,13 @@ import org.alten.business.http.request.CreateProductRequest;
 import org.alten.business.http.request.UpdateProductRequest;
 import org.alten.business.workflow.ProductWorkflow;
 import org.alten.server.api.ProductApi;
+import org.alten.tracing.annotation.Loggable;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
+@Loggable
 public class ProductController implements ProductApi {
     private final ProductWorkflow productWorkflow;
 

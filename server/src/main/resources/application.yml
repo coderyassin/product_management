@@ -18,6 +18,9 @@ logging:
   level:
     org.hibernate.SQL: info
     org.hibernate.type.descriptor.sql.BasicBinder: info
+  http:
+    response:
+      tracing-enabled: true
 management:
   endpoints:
     web:
@@ -46,6 +49,9 @@ logging:
   level:
     org.hibernate.SQL: info
     org.hibernate.type.descriptor.sql.BasicBinder: info
+  http:
+    response:
+      tracing-enabled: true
 management:
   endpoints:
     web:
@@ -74,6 +80,9 @@ logging:
   level:
     org.hibernate.SQL: info
     org.hibernate.type.descriptor.sql.BasicBinder: info
+  http:
+    response:
+      tracing-enabled: true
 management:
   endpoints:
     web:
@@ -102,6 +111,9 @@ logging:
   level:
     org.hibernate.SQL: info
     org.hibernate.type.descriptor.sql.BasicBinder: info
+  http:
+    response:
+      tracing-enabled: true
 management:
   endpoints:
     web:
@@ -130,6 +142,9 @@ logging:
   level:
     org.hibernate.SQL: info
     org.hibernate.type.descriptor.sql.BasicBinder: info
+  http:
+    response:
+      tracing-enabled: true
 management:
   endpoints:
     web:
