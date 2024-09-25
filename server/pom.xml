@@ -27,6 +27,7 @@
         <java.version>17</java.version>
         <business.version>0.0.1-SNAPSHOT</business.version>
         <tracing.version>0.0.1-SNAPSHOT</tracing.version>
+        <openapi.version>2.6.0</openapi.version>
     </properties>
     <dependencies>
         <dependency>
@@ -38,6 +39,11 @@
             <groupId>org.alten</groupId>
             <artifactId>tracing</artifactId>
             <version>${tracing.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springdoc</groupId>
+            <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+            <version>${openapi.version}</version>
         </dependency>
     </dependencies>
 </project>

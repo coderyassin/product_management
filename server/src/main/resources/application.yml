@@ -26,6 +26,23 @@ management:
     web:
       exposure:
         include: "*"
+server:
+  description: default
+  address: localhost
+  request-protocol: http
+  port: 8080
+contact:
+  name: Yassin MELLOUKI
+  email: yassin.mellouki.j@gmail.com
+info:
+  title: Product management
+  version: 0.0.1-SNAPSHOT
+  description: Product management application.
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
 
 ---
 spring:
@@ -57,6 +74,23 @@ management:
     web:
       exposure:
         include: "*"
+server:
+  description: prod
+  address: localhost
+  request-protocol: http
+  port: 8080
+contact:
+  name: Yassin MELLOUKI
+  email: yassin.mellouki.j@gmail.com
+info:
+  title: Product management
+  version: 0.0.1-SNAPSHOT
+  description: Product management application.
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
 
 ---
 spring:
@@ -88,6 +122,23 @@ management:
     web:
       exposure:
         include: "*"
+server:
+  description: preprod
+  address: localhost
+  request-protocol: http
+  port: 8080
+contact:
+  name: Yassin MELLOUKI
+  email: yassin.mellouki.j@gmail.com
+info:
+  title: Product management
+  version: 0.0.1-SNAPSHOT
+  description: Product management application.
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
 
 ---
 spring:
@@ -119,6 +170,18 @@ management:
     web:
       exposure:
         include: "*"
+server:
+  description: dev
+  address: localhost
+  request-protocol: http
+  port: 8080
+contact:
+  name: Yassin MELLOUKI
+  email: yassin.mellouki.j@gmail.com
+info:
+  title: Product management
+  version: 0.0.1-SNAPSHOT
+  description: Product management application.
 
 ---
 spring:
@@ -150,3 +213,19 @@ management:
     web:
       exposure:
         include: "*"
+server:
+  description: local
+  address: localhost
+  request-protocol: http
+contact:
+  name: Yassin MELLOUKI
+  email: yassin.mellouki.j@gmail.com
+info:
+  title: Product management
+  version: 0.0.1-SNAPSHOT
+  description: Product management application.
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
