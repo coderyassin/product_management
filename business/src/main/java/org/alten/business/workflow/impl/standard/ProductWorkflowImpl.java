@@ -77,6 +77,8 @@ public class ProductWorkflowImpl implements ProductWorkflow {
                 .shellId(Objects.nonNull(updateProductRequest.getShellId()) ? updateProductRequest.getShellId() : product.getShellId())
                 .inventoryStatus(Objects.nonNull(updateProductRequest.getInventoryStatus()) ? updateProductRequest.getInventoryStatus() : product.getInventoryStatus())
                 .rating(Objects.nonNull(updateProductRequest.getRating()) ? updateProductRequest.getRating() : product.getRating())
+                .createdAt(product.getCreatedAt())
+                .updatedAt(product.getUpdatedAt())
                 .build();
     }
 }

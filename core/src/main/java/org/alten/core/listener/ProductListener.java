@@ -10,15 +10,15 @@ import java.util.Objects;
 public class ProductListener {
     @PrePersist
     public void prePersist(Product entity) {
-        if(Objects.isNull(entity.getCreationDate())) {
-            entity.setCreationDate(LocalDateTime.now());
+        if(Objects.isNull(entity.getCreatedAt())) {
+            entity.setCreatedAt(LocalDateTime.now());
         }
     }
 
     @PreUpdate
     public void preUpdate(Product entity) {
-        if(Objects.isNull(entity.getLastModifiedDate())) {
-            entity.setLastModifiedDate(LocalDateTime.now());
+        if(Objects.isNull(entity.getUpdatedAt())) {
+            entity.setUpdatedAt(LocalDateTime.now());
         }
     }
 }
